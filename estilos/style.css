@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 386px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+body, html{
+    width: 390px;
+    height: 890px;
+}
+
+/*----- MENU INICIAL ---------*/
+#menu{
+    
+    width: 373px;
+    height: 50px;
+    background:rgb(227, 227, 227); 
+}
+
+#menu img#burger{
+    margin-top: 2px;
+    margin-left: 30px;
+}
+
+#menu img#notification{
+    margin-left: 250px;
+    margin-bottom: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+/*----- MAIN ---------*/
+
+img#background{
+    height: 400px;
+    margin: 0px 0px 0px 20px;    
+    
+}
+
+ h1#ti{
+    display: flex;
+    flex-direction: row;
+    
+    width: 213px;
+    height: 34px;
+    flex-shrink: 0;
+    text-decoration: underline;
+
+    color: #ffffff;
+    align-items: center;
+    font-family: Michroma;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    margin-left: 100px;
+    margin-top: -230px;
+    margin-bottom: 30px;
+}
+
+
+
+#img{
+    justify-content: space-between;
+}
+
+#img #imgPhone, #imgVideo{
+    background-color: white;
+    color: #0D6A9F;
+
+    width: 25px;
+    padding: 8px;
+    border-radius: 10px;
+
+    
+    margin: 5px;
+    margin-left: 60px;
+}
+
+#img #imgTalk{
+    background-color: white;
+    color: #0D6A9F;
+    
+    width: 15px;
+    
+    padding: 13px;
+    border-radius: 10px;
+
+    
+    margin: 5px;
+    margin-left: 40px;
+    
+}
+
+#botao{
+    font-family: 'Michroma';
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+#botao #html, #css, #javascript, #design{
+   
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Michroma';
+    border: 0;
+    border-radius: 20px;
+    height: 50px;
+    width: 80px;
+
+    margin-left: 5px;
+
+    
+    background: linear-gradient(180deg, #0E6B9F 0%, #121D23 100%);
+}
+
+#space{
+    margin-top: 20px;
+    width: 350px;
+    height: 200px;
+    flex-shrink: 0;
+    margin-left: 15px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #0D6A9F 0%, rgba(1, 11, 17, 0.93) 100%);
+
+}
+
+#space #txt{
+    font-family: 'Michroma';
+    color: #ffffff;
+    
+    padding: 10px;
+}
+
+#embaixo a{
+    background: linear-gradient(180deg, #0E6B9F 0%, #121D23 100%);
+    color: #ffffff;
+    font-family: 'Michroma';
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+
+}
